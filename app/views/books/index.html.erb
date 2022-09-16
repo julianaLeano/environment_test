@@ -20,7 +20,7 @@
         <td><%= book.author %></td>
         <td><%= book.price %></td>
         <td><%= book.published_date %></td>
-        <td><%= link_to 'Show', book, data: { confirm: 'Edit selected.'} %></td>
+        <td><%= link_to 'Show', book, data: { confirm: 'Show selected.'} %></td>
         <td><%= link_to 'Edit', edit_book_path(book), data: { confirm: 'Edit selected.'} %></td>
         <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
